@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://django-postgresql.herokuapp.com',
+    'django-postgresql.herokuapp.com',
     'localhost',
 ]
 
